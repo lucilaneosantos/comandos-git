@@ -25,4 +25,5 @@
 
 //modificar cofigurações do git
 
-->>> git config
+->>> git config -- local
+->>> git config -- global
