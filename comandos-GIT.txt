@@ -18,3 +18,7 @@
 //Comentar codigo
 
 ->>> git commit  -m "Criando arquivo index.html com lista de curso"
+
+//historico de modificações no repositorio
+
+->>> git log
