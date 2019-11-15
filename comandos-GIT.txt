@@ -25,5 +25,5 @@
 
 //modificar cofigurações do git
 
-->>> git config -- local
+->>> git config -- local user.name / user.email
 ->>> git config -- global
