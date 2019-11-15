@@ -22,3 +22,7 @@
 //historico de modificações no repositorio
 
 ->>> git log
+
+//modificar cofigurações do git
+
+->>> git config
