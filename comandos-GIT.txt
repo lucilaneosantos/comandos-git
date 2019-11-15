@@ -1,0 +1,20 @@
+//Inicializar e informar ao git repositorio
+
+->>> git init
+
+//Verificar alterações nos arquivos
+
+->>> git status
+
+//Monitor arquivos no repositorio
+//(arquivo unico)
+
+->>> git add nomeArquivo
+
+//(varios arquivos)
+
+->>> git add .
+
+//Comentar codigo
+
+->>> git commit  -m "Criando arquivo index.html com lista de curso"
