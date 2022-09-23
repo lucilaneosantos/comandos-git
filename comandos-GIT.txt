@@ -1,36 +1,35 @@
-//Inicializar e informar ao git repositorio
+Inicializando o repositorio local
 
-->>> git init
+-> git init
 
-//Verificar alterações nos arquivos
+Verificando alterações nos arquivos
 
-->>> git status
+-> git status
 
-//Monitor arquivos no repositorio
-//(arquivo unico)
+Adcionando arquivos ao controle de versão
 
-->>> git add nomeArquivo
+-> git add nomeArquivo
+-> git add .
 
-//(varios arquivos)
+Criando versões do codigo com commit
 
-->>> git add .
+-> git commit  -m "Criando arquivo index.html com lista de curso"
 
-//Comentar codigo
+Enviar para o repositorio na nuvem
 
-->>> git commit  -m "Criando arquivo index.html com lista de curso"
+-> git push
 
-//enviar para o repositorio na nuvem
---> git push
+Modificar cofigurações do git
 
-//modificar cofigurações do git
-->>> git config -- local user.name / user.email
-->>> git config -- global
+-> git config -- local user.name / user.email
+-> git config -- global
 
-//verificar o historicos de modificações no repositorio
+Verificar o historicos de modificações no repositorio
 
-->>> git reflog
+-> git reflog
 
-//Como navegar entre versões do codigo
-->> git reset --hard "ID do reflog"
+Como navegar entre versões do codigo
+
+-> git reset --hard "ID do reflog"
 
 
