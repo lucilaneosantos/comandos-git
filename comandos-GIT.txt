@@ -19,7 +19,10 @@
 
 ->>> git commit  -m "Criando arquivo index.html com lista de curso"
 
-//historico de modificações no repositorio
+//enviar para o repositorio na nuvem
+--> git push
+
+//historicos de modificações no repositorio
 
 ->>> git log
 
