@@ -39,3 +39,8 @@ Criando branches
 Navegando entre as branchs
 
 -> git checkout "nomeBranch"
+
+Atualizações para bracnh principal (master)(unir)
+
+-> git checkout master
+-> git merge staging
