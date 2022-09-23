@@ -32,4 +32,10 @@ Como navegar entre versões do codigo
 
 -> git reset --hard "ID do reflog"
 
+Criando branches 
 
+-> git branch "nomeBranch"
+
+Navegando entre as branchs
+
+-> git checkout "nomeBranch"
