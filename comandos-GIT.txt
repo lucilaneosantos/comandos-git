@@ -22,11 +22,15 @@
 //enviar para o repositorio na nuvem
 --> git push
 
-//historicos de modificações no repositorio
-
-->>> git log
-
 //modificar cofigurações do git
-
 ->>> git config -- local user.name / user.email
 ->>> git config -- global
+
+//verificar o historicos de modificações no repositorio
+
+->>> git reflog
+
+//Como navegar entre versões do codigo
+->> git reset --hard "ID do reflog"
+
+
