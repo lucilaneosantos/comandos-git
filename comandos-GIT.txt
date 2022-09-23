@@ -40,7 +40,8 @@ Navegando entre as branchs
 
 -> git checkout "nomeBranch"
 
-Atualizações para bracnh principal (master)(unir)
+Unir codigo a branch principal ( atualização local, troca para branch principal, atualização)
 
+-> git pull
 -> git checkout master
 -> git merge staging
