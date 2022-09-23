@@ -1,47 +1,58 @@
-Inicializando o repositorio local
+1.Inicializando o repositorio local
 
 -> git init
 
-Verificando alterações nos arquivos
+2.Verificando alterações nos arquivos
 
 -> git status
 
-Adcionando arquivos ao controle de versão
+3.Adcionando arquivos atuais ao proxumo commit
 
 -> git add nomeArquivo
 -> git add .
 
-Criando versões do codigo com commit
+4.Criando versões do codigo com commit
 
 -> git commit  -m "Criando arquivo index.html com lista de curso"
 
-Enviar para o repositorio na nuvem
+5.Envia as atualizações para a nuvem na branch atualmente ativa
 
 -> git push
 
-Modificar cofigurações do git
+6.Modificar cofigurações do git
 
 -> git config -- local user.name / user.email
 -> git config -- global
 
-Verificar o historicos de modificações no repositorio
+7.Verificar o historicos de modificações no repositorio
 
 -> git reflog
 
-Como navegar entre versões do codigo
+8.Como navegar entre versões do codigo
 
 -> git reset --hard "ID do reflog"
 
-Criando branches 
+9.Permite listar e ver qual branch esta ativa atualmente
+
+-> git branch
+
+10.Permite mudar de branch
 
 -> git branch "nomeBranch"
 
-Navegando entre as branchs
+11.Permite mudar e criar uma nova branch com base em outra
 
--> git checkout "nomeBranch"
+-> git checkout -b  "master" "nomeBranch"
 
-Unir codigo a branch principal ( atualização local, troca para branch principal, atualização)
+12.Atualiza a branch atualmente ativa
 
--> git pull
--> git checkout master
--> git merge staging
+-> git pull 
+
+13.Permite fazer merge da branch ativa atualmente com outra branch
+
+-> git merge "branch a receber merge" ( sempre que utilizar antes os comandos 10 e 12)
+
+14.Excluir arquivos do controle de versão
+
+-> touch .gitignore
+
